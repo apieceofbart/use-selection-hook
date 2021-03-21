@@ -1,6 +1,6 @@
 {
   "name": "use-selection-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hook for keeping track of selected list of elements",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
