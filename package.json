@@ -15,6 +15,10 @@
     "react",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apieceofbart/use-selection-hook.git"
+  },
   "author": "Bartek Kozera",
   "license": "ISC",
   "peerDependencies": {
