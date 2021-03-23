@@ -31,7 +31,7 @@ const useSelection = require('use-selection-hook')
 ### Usage/API:
 
 ```
-Hooks has two parameters:
+Hook has two parameters:
 1. data - an array of items, each has to have `id` property that is a string. It is required.
 2. defaultSelection - an array of `ids` (strings) - items that should be preselected.
 
@@ -79,7 +79,7 @@ https://codesandbox.io/s/useselection-hook-10gn3?file=/src/App.tsx
 ## Testing
 
 ```
-TODO
+npm run test
 ```
 
 ## Issues & Contributions
