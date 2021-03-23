@@ -1,6 +1,6 @@
 import { useMemo, useState, useCallback, useEffect } from "react";
 
-interface Item {
+export interface Item {
   id: string;
 }
 
