@@ -60,7 +60,10 @@ const {
   * or a callback that has to return a new selection that has a single parameter - current selection
   * the second form is helpful if you need memoization
   */
-  setSelected: (selectionOrCallback: string[] | ((selection: string[]) => string[])) => void;
+  /* pass newSelection */
+  setSelected: (newSelection: string[]) => void;
+  /* pass a callback that returns a new selection */
+  setSelected: ((currentSelection: string[]) => string[]) => void;
   /* the original data that was passed to hook */
   data: T[];
 } = useSelection(data: T[], defaultSelection?: string[])
